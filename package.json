@@ -1,0 +1,52 @@
+{
+  "name": "wolfkiller-ds",
+  "version": "0.0.0",
+  "description": "as a base components repository for wolfkiller",
+  "main": "index.ts",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build": "tsc && vite build",
+    "build-storybook": "build-storybook",
+    "dev": "yarn storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeepUmbrella/wolfkiller-ds.git"
+  },
+  "keywords": [
+    "wolfkiller-ds"
+  ],
+  "author": "linyanqaq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DeepUmbrella/wolfkiller-ds/issues"
+  },
+  "homepage": "https://github.com/DeepUmbrella/wolfkiller-ds#readme",
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/builder-vite": "^0.4.2",
+    "@storybook/builder-webpack4": "^6.5.16",
+    "@storybook/manager-webpack4": "^6.5.16",
+    "@storybook/react": "^6.5.16",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "babel-loader": "^8.3.0",
+    "sass": "^1.59.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
